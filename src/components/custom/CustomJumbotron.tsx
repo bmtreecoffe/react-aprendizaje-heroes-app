@@ -12,7 +12,7 @@ export const CustomJumbotron: FC<Props> = ({title, description}) => {
                 {title}
             </h1>
             {
-                description && ( <p className="text-gray-600 text-lg">description</p>)
+                description && ( <p className="text-gray-600 text-lg">{description}</p>)
             }           
         </div>
     )
